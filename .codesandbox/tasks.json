@@ -1,0 +1,83 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "clean:common": {
+      "name": "clean:common",
+      "command": "npm run clean:common",
+      "runAtStart": false
+    },
+    "clean:schemas": {
+      "name": "clean:schemas",
+      "command": "npm run clean:schemas",
+      "runAtStart": false
+    },
+    "clean:generator": {
+      "name": "clean:generator",
+      "command": "npm run clean:generator",
+      "runAtStart": false
+    },
+    "clean:ui": {
+      "name": "clean:ui",
+      "command": "npm run clean:ui",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:common": {
+      "name": "build:common",
+      "command": "npm run build:common",
+      "runAtStart": false
+    },
+    "build:schemas": {
+      "name": "build:schemas",
+      "command": "npm run build:schemas",
+      "runAtStart": false
+    },
+    "build:generator": {
+      "name": "build:generator",
+      "command": "npm run build:generator",
+      "runAtStart": false
+    },
+    "build:ui": {
+      "name": "build:ui",
+      "command": "npm run build:ui",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    }
+  }
+}
